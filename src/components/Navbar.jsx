@@ -92,6 +92,7 @@ const Navbar = () => {
         <ul>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
             <a className='flex justify-between items-center w-full text-gray-300' target="_blank"
+            rel="noreferrer"
               href='https://www.linkedin.com/in/febinfaiby/'>
               Linkedin <FaLinkedin size={30} />
             </a>
@@ -110,6 +111,8 @@ const Navbar = () => {
             <a
               className='flex justify-between items-center w-full text-gray-300' target="_blank"
               href={resume} download={true}
+              rel="noreferrer"
+              
             >
               resume <BsFillPersonLinesFill size={30} />
             </a>
@@ -118,7 +121,7 @@ const Navbar = () => {
         <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
             <a
               className='flex justify-between items-center w-full text-gray-300' target="_blank"
-              href='https://github.com/febinfaiby'
+              href='https://github.com/febinfaiby' rel="noreferrer"
             >
               Github <FaGithub size={30} />
             </a>
