@@ -32,8 +32,8 @@ const Home = () => {
                                     className='flex justify-between items-center w-full text-gray-300'
                                     target="_blank"
                                     href='https://github.com/febinfaiby'
-                                >
-                                    <FaGithub size={30} />
+                                    rel="noreferrer">
+                                <FaGithub size={30} />
                                 </a>
                             </li>
                             <li className='w-[140px] h-[60px] flex justify-between items-center  bg-[#565f69]'>
