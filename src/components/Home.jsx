@@ -16,10 +16,10 @@ const Home = () => {
                 <h4 className='text-2xl sm:text-4xl font-bold text-[#8892b0]'>Sr. Performance Marketing Specialist & React Js Developer.</h4>
                 <p className='text-[#8892b0] sm:text-[1rem] text-[10px]  py-4 max-w-[700px]' >With over 3+ years of hands-on experience in driving customer acquisition and revenue growth through digital advertising, 
                 I have honed my skills in leveraging the power of Google and Meta platforms. My analytical approach and continuous optimization strategies have consistently 
-                improved campaign performance, leading to significant ROI increases for my clients.</p>
+                improved campaign performance, leading to significant ROI increases for my clients.best digital marketing freelancer In kerala.</p>
 
                 <div>
-                    <Link  to='work' smooth={true} duration={500}>
+                    <Link  to='skills1' smooth={true} duration={500}>
                         <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600'>View Work
                             <span className='group-hover:rotate-90 duration-300'><HiArrowNarrowRight className='ml-3' /></span></button>
 

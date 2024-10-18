@@ -17,7 +17,7 @@ const Navbar = () => {
         <img src={febinfaiby} alt="Logo-e" className='rounded-full' style={{ width: '47px' }} />
       </div>
      
-
+    
       <ul className='hidden md:flex'>
         <li>
           <Link to='home' smooth={true} duration={500}>

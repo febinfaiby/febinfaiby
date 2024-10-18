@@ -15,7 +15,7 @@ import Bootstrap from '../assets/S1.png';
 
 const Skills = () => {
   return (
-    <div name='skills' className=' w-full h-auto text-gray-300 bg-[#0a192f]'>
+    <div name='skills' id='skills1' className=' w-full h-auto text-gray-300 bg-[#0a192f]'>
         {/* container */}
         <div className='max-w-[900px] mx-auto p-4 flex flex-col  w-full h-full'>
             <div>
@@ -31,60 +31,60 @@ const Skills = () => {
 
                 </div>
                 <div className='shadow-md shadow-[#3d7077] hover:scale-110 duration-500 mb-3'>
-                    <img className='w-20 mx-auto' src={meta} alt="CSS icon" />
+                    <img className='w-20 mx-auto' src={meta} alt="best digital marketing FREELANCER IN KERALA" />
                     <p className='my-4'>Meta Ads</p>
 
                 </div>
                 <div className='shadow-md shadow-[#3d7077] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src={Mysql} alt="FIREBASE icon" />
+                    <img className='w-20 mx-auto' src={Mysql} alt="best digital marketing FREELANCER IN KERALA" />
                     <p className='my-4'>Google Analytics</p>
 
                 </div>
                 <div className='shadow-md shadow-[#3d7077] hover:scale-110 duration-500 mb-3'>
-                    <img className='w-20 mx-auto' src={tag} alt="PYTHON icon" />
+                    <img className='w-20 mx-auto' src={tag} alt="best digital marketing FREELANCER IN KERALA"   />
                     <p className='my-4'>Tag Manager</p>
 
                 </div>
                 <div className='shadow-md shadow-[#3d7077] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src={Pyanywhere} alt="PYTHONANYWHERE icon" />
+                    <img className='w-20 mx-auto' src={Pyanywhere} alt="best digital marketing FREELANCER IN KERALA" />
                     <p className='my-4'>DV360</p>
 
                 </div>
                 <div className='shadow-md shadow-[#3d7077] hover:scale-110 duration-500 mb-3'>
-                    <img className='w-20 mx-auto' src={Django} alt="DJANGO icon" />
+                    <img className='w-20 mx-auto' src={Django} alt="best digital marketing FREELANCER IN KERALA" />
                     <p className='my-4'>Microsoft Clarity</p>
 
                 </div>
 
                 <div className='shadow-md shadow-[#3d7077] hover:scale-110 duration-500 mb-3'>
-                    <img className='w-20 mx-auto' src={SEO} alt="JAVASCRIPT icon" />
+                    <img className='w-20 mx-auto' src={SEO} alt="best digital marketing FREELANCER IN KERALA" />
                     <p className='my-4'>Email Marketing</p>
 
                 </div>
                
                 <div className='shadow-md shadow-[#3d7077] hover:scale-110 duration-500 mb-3'>
-                    <img className='w-20 mx-auto' src={Bootstrap} alt="BOOTSTSRAP icon" />
+                    <img className='w-20 mx-auto' src={Bootstrap} alt="best digital marketing FREELANCER IN KERALA" />
                     <p className='my-4'>SEO</p>
 
                 </div>
                 <div className='shadow-md shadow-[#3d7077] hover:scale-110 duration-500 mb-3'>
-                    <img className='w-20 mx-auto' src={EXCEL} alt="MYSQL icon" />
+                    <img className='w-20 mx-auto' src={EXCEL} alt="best digital marketing FREELANCER IN KERALA" />
                     <p className='my-4'>EXCEL</p>
 
                 </div>
                 <div className='shadow-md shadow-[#3d7077] hover:scale-110 duration-500 mb-3'>
-                    <img className='w-20 mx-auto' src={ReactImg} alt="REACT icon" />
+                    <img className='w-20 mx-auto' src={ReactImg} alt="best digital marketing FREELANCER IN KERALA" />
                     <p className='my-4'>REACT JS</p>
 
                 </div>
                 
                 <div className='shadow-md shadow-[#3d7077] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src={GitHub} alt="GITHUB icon" />
+                    <img className='w-20 mx-auto' src={GitHub} alt="best digital marketing FREELANCER IN KERALA" />
                     <p className='my-4'>GITHUB</p>
 
                 </div>
                 <div className='shadow-md shadow-[#3d7077] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src={Tailwind} alt="THAILWIND icon" />
+                    <img className='w-20 mx-auto' src={Tailwind} alt="best digital marketing FREELANCER IN KERALA" />
                     <p className='my-4'>THAILWIND CSS</p>
 
                 </div>

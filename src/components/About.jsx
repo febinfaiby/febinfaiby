@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 
 const About = () => {
     return (
@@ -20,7 +21,7 @@ const About = () => {
                         <p>With over 3+ years of hands-on experience in driving customer acquisition and revenue growth through digital advertising, 
                             I have honed my skills in leveraging the power of Google and Meta platforms. 
                             My analytical approach and continuous optimization strategies have consistently improved campaign performance, 
-                            leading to significant ROI increases for my clients.</p>
+                            leading to significant ROI increases for my clients.best digital marketing freelancer In kerala.</p>
                     </div>
                 </div>
             </div>
