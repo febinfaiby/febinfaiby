@@ -5,10 +5,12 @@ import { FaGithub } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { Link } from "react-scroll";
 import SEO from './SEO'
+import BestDigitalMarketer from "./BestDigitalMarketer";
 
 const Home = () => {
   return (
     <>
+    <BestDigitalMarketer/> 
       <SEO /> {/* This applies meta tags and title from the SEO component */}
       
       <div name="home" className="w-full h-screen bg-[#0a192f]">
