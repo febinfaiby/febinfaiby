@@ -4,13 +4,15 @@ import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import febinfaiby from '../assets/febinphoto.jpg';
 import { Link } from 'react-scroll';
-import resume from '../assets/febin.pdf';
+import resume from '../assets/febinnew1.pdf';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false)
   const handleClick = () => setNav(!nav)
+  
 
   return (
+    
     <div className='.circular-photo
       border: 5px solid #fff; fixed w-full h-[70px] flex justify-between items-center px-3 bg-[#0a192f] text-gray-300'>
       <div>
