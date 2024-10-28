@@ -10,7 +10,7 @@ import BestDigitalMarketer from "./BestDigitalMarketer";
 const Home = () => {
   return (
     <>
-    <BestDigitalMarketer/> 
+    {/* <BestDigitalMarketer/> This applies meta tags and title from the SEO component */}
       <SEO /> {/* This applies meta tags and title from the SEO component */}
       
       <div name="home" className="w-full h-screen bg-[#0a192f]">
@@ -28,7 +28,7 @@ const Home = () => {
           </h1>
           
           <h4 className="text-2xl sm:text-4xl font-bold text-[#8892b0]">
-            Sr. Performance Marketing Specialist<br />& React Js Developer.
+            Sr. Performance Marketing Specialist
           </h4>
           
           <p className="text-[#8892b0] sm:text-[1rem] text-[10px] py-4 max-w-[700px]">
