@@ -6,6 +6,7 @@ import { BsFillPersonLinesFill } from "react-icons/bs";
 import { Link } from "react-scroll";
 import SEO from './SEO'
 import BestDigitalMarketer from "./BestDigitalMarketer";
+import febinfaiby from '../assets/febinphoto.jpg'
 
 const Home = () => {
   return (
@@ -14,43 +15,43 @@ const Home = () => {
       <SEO /> {/* This applies meta tags and title from the SEO component */}
       
       <div name="home" className="w-full h-screen bg-[#0a192f]">
-        {/* Container */}
-        <div className="max-w-[900px] mx-auto sm:px-16 px-4 flex flex-col justify-center h-full">
-          
-          <p className="text-white">
-            <span className="bg-blue-600 text-white inline-block px-2 py-1 rounded-md">
-              Hi, there, my name is:
-            </span>
-          </p>
-          
-          <h1 className="text-3xl sm:text-7xl font-bold text-[#ccd6f6]">
-            Febinfaiby
-          </h1>
-          
-          <h4 className="text-2xl sm:text-4xl font-bold text-[#8892b0]">
-            Sr. Performance Marketing Specialist
-          </h4>
-          
-          <p className="text-[#8892b0] sm:text-[1rem] text-[10px] py-4 max-w-[700px]">
-            With over 3+ years of hands-on experience in driving customer
-            acquisition and revenue growth through digital advertising, I have
-            honed my skills in leveraging the power of Google and Meta platforms.
-            My analytical approach and continuous optimization strategies have
-            consistently improved campaign performance, leading to significant ROI
-            increases for my clients. Best digital marketing freelancer in Kerala.
-          </p>
+  <div className="max-w-[900px] mx-auto sm:px-16 px-4 flex flex-col justify-center h-full space-y-2">
+    
+    {/* Profile Section with Image, Greeting, Name, and Title in One Line */}
+    <div className="flex items-center space-x-3">
+      <img src={febinfaiby} alt="Profile" className="rounded-full border border-white w-20 h-20" />
 
+      <div>
+      <span className="bg-blue-600 text-white px-2 py-1 rounded-md text-sm inline-block">
+  Hi, there, my name is:
+</span>
+
+        <h1 className="text-3xl sm:text-7xl font-bold text-[#ccd6f6]">Febinfaiby</h1>
+        <h4 className="text-2xl sm:text-4xl font-bold text-[#8892b0]">Sr. Performance Marketing Specialist</h4>
+      </div>
+    </div>
+
+    {/* Full-width Description Aligned to the Same Start Point */}
+    <p className="text-[#8892b0] sm:text-[1rem] text-[6px] mt-2 pl-20">
+      With over 3+ years of hands-on experience in driving customer acquisition and revenue growth through digital advertising, I have honed my skills in leveraging the power of Google and Meta platforms. My analytical approach and continuous optimization strategies have consistently improved campaign performance, leading to significant ROI increases for my clients. Best digital marketing freelancer in Kerala.
+    </p>
+  </div>
+</div>
           {/* Button to View Work */}
-          <div>
-            <Link to="skills1" smooth={true} duration={500}>
-              <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600">
-                View Work
-                <span className="group-hover:rotate-90 duration-300">
-                  <HiArrowNarrowRight className="ml-3" />
-                </span>
-              </button>
-            </Link>
-          </div>
+            {/* Button to View Work */}
+            {/* <div> */}
+            {/* <Link to="skills1" smooth={true} duration={500}> */}
+              {/* <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600"> */}
+                {/* View Work */}
+                {/* <span className="group-hover:rotate-90 duration-300"> */}
+                  {/* <HiArrowNarrowRight className="ml-3" /> */}
+                {/* </span> */}
+              {/* </button> */}
+            {/* </Link> */}
+          {/* </div> */}
+{/* Top Sr. Performance Marketing Freelancer in Calicut, Kerala */}
+{/* No:1 Performance Marketing Freelancer in Calicut, Kerala */}
+{/* best Freelance digital marketing specialist in kerala calicut */}
 
           {/* Social Links (Visible on mobile only) */}
           <div className="flex lg:hidden mt-5">
@@ -76,8 +77,6 @@ const Home = () => {
               </li>
             </ul>
           </div>
-        </div>
-      </div>
     </>
   );
 };

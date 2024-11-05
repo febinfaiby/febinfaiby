@@ -14,12 +14,7 @@ const Navbar = () => {
   return (
     
     <div className='.circular-photo
-      border: 5px solid #fff; fixed w-full h-[70px] flex justify-between items-center px-3 bg-[#0a192f] text-gray-300'>
-      <div>
-        <img src={febinfaiby} alt="Logo-e" className='rounded-full' style={{ width: '47px' }} />
-      </div>
-     
-    
+      border: 16px solid #fff; fixed w-full h-[120px] flex justify-end items-center px-8 bg-[#0a192f] text-gray-300'>
       <ul className='hidden md:flex'>
         <li>
           <Link to='home' smooth={true} duration={500}>

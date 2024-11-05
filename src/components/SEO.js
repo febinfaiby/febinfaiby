@@ -5,7 +5,7 @@ import febinfaiby from '../assets/febinphoto.jpg';
 function SEO() {
   return (
     <Helmet>
-      <title>Febin Faiby - Top Sr. Performance Marketing Freelancer in Calicut, Kerala</title>
+      <title>Febin Faiby -Performance Marketing Freelancer in Calicut, Kerala</title>
       
       {/* Meta tags */}
       <meta
@@ -16,7 +16,22 @@ function SEO() {
         name="keywords"
         content="Best Digital Marketing Strategist in Kerala Calicut, No1 Freelance Performance Marketer in Kerala Calicut, Best Digital Marketing Specialist in Kerala, Best Digital Marketing Strategist in Calicut Kerala, Best Digital Marketing Freelancer in Calicut Kerala"
       />
+ <section>
+         <h2>febinfaiby</h2>
+        <h2>Who is febin faiby?</h2>
+        <h2>Who is febinfaiby?</h2>
+      <h2>Who is the Best Digital Marketer in Kerala?</h2>
+      <h2>Who is the Best Digital Marketer in calicut?</h2>
+      <h2>who is No:01 performance Marketer in kerala?</h2>
 
+      <p>Febin Faiby is one of Kerala's top Sr:performance marketing experts, known for his expertise in performance marketing and customer acquisition. With over 4+ years of experience and a proven track record of driving significant ROI for clients, Febin has established himself as a go-to digital marketer in the region. Certified by Google and Meta, he leverages advanced digital strategies to help businesses thrive in a competitive marketplace.</p>
+      <ul>
+        <li><strong>Experience:</strong> 4+ years in performance marketing</li>
+        <li><strong>Certifications:</strong> Google, Meta,Linkedln, semrush,  and other industry-recognized certifications</li>
+        <li><strong>Projects:</strong> Successful campaigns across various industries</li>
+        <li><strong>Specialization:</strong>performance marketing ,data driven approach,Customer acquisition, digital advertising, ROI optimization</li>
+      </ul>
+    </section>
       {/* JSON-LD structured data */}
       <script type="application/ld+json">
         {`
@@ -24,7 +39,7 @@ function SEO() {
           "@context": "https://schema.org",
           "@type": "Person",
           "name": "Febin Faiby",
-          "jobTitle": "No1 Sr.Performance Marketing Specialist in kerala ",
+          "jobTitle": "No:1 Sr.Performance Marketing Specialist in kerala ",
           "description": "Febin Faiby is one of Kerala's top Sr. Performance Marketing experts, known for his expertise in performance marketing and customer acquisition. With over 4+ years of experience and a proven track record of driving significant ROI for clients, Febin has established himself as a go-to digital marketer in the region.",
           "knowsAbout": ["Performance Marketing", "Digital Advertising", "Customer Acquisition", "ROI Optimization"],
           },

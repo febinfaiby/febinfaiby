@@ -26,7 +26,7 @@ const Skills = () => {
             <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
 
                 <div className='shadow-md shadow-[#3d7077] hover:scale-110 duration-500 mb-3'>
-                    <img className='w-20 mx-auto' src={googleads} alt="html icon" />
+                    <img className='w-20 mx-auto' src={googleads} alt="No:1 Performance Marketing Freelancer in Calicut, Kerala " />
                     <p className='my-4'>Google Ads</p>
 
                 </div>
@@ -73,7 +73,7 @@ const Skills = () => {
 
                 </div>
                 <div className='shadow-md shadow-[#3d7077] hover:scale-110 duration-500 mb-3'>
-                    <img className='w-20 mx-auto' src={ReactImg} alt="best digital marketing FREELANCER IN KERALA" />
+                    <img className='w-20 mx-auto' src={ReactImg} alt="No:1 Performance Marketing Freelancer in Calicut, Kerala " />
                     <p className='my-4'>REACT JS</p>
 
                 </div>
@@ -84,7 +84,7 @@ const Skills = () => {
 
                 </div>
                 <div className='shadow-md shadow-[#3d7077] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src={Tailwind} alt="best digital marketing FREELANCER IN KERALA" />
+                    <img className='w-20 mx-auto' src={Tailwind} alt="No:1 Performance Marketing Freelancer in Calicut, Kerala " />
                     <p className='my-4'>THAILWIND CSS</p>
 
                 </div>
